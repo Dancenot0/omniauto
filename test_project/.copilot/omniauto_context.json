@@ -1,0 +1,25 @@
+{
+  "project_structure": {
+    "entry_point": "from omniauto import auto",
+    "available_categories": [
+      "ui",
+      "data",
+      "utils"
+    ]
+  },
+  "available_functions": {
+    "ui.saludar": {
+      "doc": "Sin documentación",
+      "signature": "(nombre: str)",
+      "module": "prueba"
+    },
+    "data.sumar": {
+      "doc": "Sin documentación",
+      "signature": "(a: int, b: int)",
+      "module": "prueba"
+    }
+  },
+  "modules_discovered": [
+    "prueba"
+  ]
+}
